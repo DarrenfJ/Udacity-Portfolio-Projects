@@ -1,5 +1,8 @@
 * {
-    border: 1px solid red !important;
+    border: 1px solid red !important; 
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #606050;
 }
 
 @media only screen and (max-width: 500px) and (orientation: landscape) {
@@ -13,8 +16,36 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    
 }
 
+img { 
+    display: inline-block;
+}
+
+.logo {
+    padding-left: 20px;
+}
+h1 {
+    font-weight: 100;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #BCBBBB;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
 .grid {
     margin: 0 auto;
     max-width: 1200px;
@@ -26,6 +57,28 @@
     margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
+    
+}
+
+.row1 {
+
+    border-bottom: 2px solid #BCBBBB;
+}
+
+.row .DJid {
+    text-align: right;
+}
+
+#ninja {
+
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col-4 p {
+
+    text-align: center;
 }
 
 .col-1 {

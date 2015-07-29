@@ -41,6 +41,8 @@ h2 {
 h3 {
     font-size: 40px;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 p {
@@ -95,6 +97,7 @@ p {
 
 .col-4 {
     width: 33.33%;
+
 }
 
 .col-5 {

@@ -1,0 +1,139 @@
+<!DOCTYPE html> 
+<html  lang ="en" > 
+  <head> 
+    <meta  charset ="UTF-8" > 
+    <title >Darren Joy Code Monkey</title > 
+      <link rel="stylesheet" id="coToolbarStyle" href="chrome-extension://cjabmdjcfcfdmffimndhafhblfmpjdpe/toolbar/styles/placeholder.css" type="text/css">
+      <script type="text/javascript" id="cosymantecbfw_removeToolbar">(function () {				var toolbarElement = {},					parent = {},					interval = 0,					retryCount = 0,					isRemoved = false;				if (window.location.protocol === 'file:') {					interval = window.setInterval(function () {						toolbarElement = document.getElementById('coFrameDiv');						if (toolbarElement) {							parent = toolbarElement.parentNode;							if (parent) {								parent.removeChild(toolbarElement);								isRemoved = true;								if (document.body && document.body.style) {									document.body.style.setProperty('margin-top', '0px', 'important');								}							}						}						retryCount += 1;						if (retryCount > 10 || isRemoved) {							window.clearInterval(interval);						}					}, 10);				}			})();</script>
+      <script type="text/javascript" id="waxCS">var WAX = function () { var _arrInputs; return { getElement: function (i) { return _arrInputs[i]; }, setElement: function(i){ _arrInputs=i; } } }(); function waxGetElement(i) { return WAX.getElement(i); } function coSetPageData(t, d){ if('wax'==t) { WAX.setElement(d);} }</script><script type="text/javascript" id="waxCS">var WAX = function () { var _arrInputs; return { getElement: function (i) { return _arrInputs[i]; }, setElement: function(i){ _arrInputs=i; } } }(); function waxGetElement(i) { return WAX.getElement(i); } function coSetPageData(t, d){ if('wax'==t) { WAX.setElement(d);} }</script>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <link href='http://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+  </head>
+    <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 title-logo">
+          <img src="http://placehold.it/100x100" class="img-responsive">
+        </div>
+        <div class="col-md-6 text-uppercase text-right">
+          <h1 class="text-thin title-super">Darren Joy</h1>
+          <h3>Front-end Ninja</h3>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="http://lorempixel.com/output/city-q-c-1040-350-4.jpg" class="img-responsive">
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-muted">Featured Work</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-6">
+          <img src="http://lorempixel.com/output/nightlife-q-c-555-300-2.jpg" class="img-responsive" data-toggle="modal" data-target="#project1">
+          <h3>Project One App</h3>
+          <p><a href="https://github.com/DarrenfJ/Udacity-Portfolio-Projects/tree/master/toplist">Link to Toplist</a></p>
+        </div>
+        <div class="col-md-6">
+          <img src="http://lorempixel.com/output/nightlife-q-c-555-300-5.jpg" class="img-responsive" data-toggle="modal" data-target="#project2">
+          <h3>Framework</h3>
+          <p><a href="https://github.com/DarrenfJ/Udacity-Portfolio-Projects/tree/master/framework">Link to Framework</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-6">
+          <img src="http://lorempixel.com/output/nightlife-q-c-555-300-4.jpg" class="img-responsive" data-toggle="modal" data-target="#project3">
+          <h3>Portfolio Mockup</h3>
+          <p><a href="https://github.com/DarrenfJ/Udacity-Portfolio-Projects/tree/master/Port_mock_up">Link to Portfolio mockup</a></p>
+        </div>
+        <div class="col-md-6">
+          <img src="http://lorempixel.com/output/nightlife-q-c-555-300-7.jpg" class="img-responsive" data-toggle="modal" data-target="#project4">
+          <h3>This projects GitHub</h3>
+          <p><a href="http://github.com">Link to GitHub</a></p>
+        </div>
+      </div>
+    </div>
+<!-- Modal 1-->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://lorempixel.com/output/nightlife-q-c-555-300-2.jpg">
+        This was my first project in this class. I learned a lot about HTML and CSS, specifically the idea of the box layout, and overall structure. It's a pretty static page, ut learning about CSS and HTML standards is a good and more formal  reminder of what I've hacked myway through learning online through the last few years. it's also good to know W3C has sites you can validate your code andget the nice spiffy logo on the bottom
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 2-->
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Framework Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://lorempixel.com/output/nightlife-q-c-555-300-5.jpg">
+        This was my second project in this class. I learned a lot about grid layouts. This is a 12 column custom created grid with filler text. Onwards to Bootstrap!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 3-->
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Portfolio Mock-up with my grid system</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://lorempixel.com/output/nightlife-q-c-555-300-4.jpg">
+        This was my third project in this class. I learned a lot about the DOM, and layouts in general. This one is done with my custom grid layout, and lays the foundation of the thinking needed to explore Bootstrap.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 4-->
+<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://lorempixel.com/output/nightlife-q-c-555-300-7.jpg">
+        This was my last project in this class. I learned a lot about Bootstrap and Modals. You are looking at it right now!! Thanks to http://lorempixel.com/ for the filler pics, and thanks to Udacity for all the learnin's
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+  </body>
+    <div id="coFrameDiv" style="height:0px;display:none;"><iframe id="coToolbarFrame" src="chrome-extension://cjabmdjcfcfdmffimndhafhblfmpjdpe/toolbar/placeholder.html" style="height: 0px; width: 100%; display: none;"></iframe>
+    </div>
+</html>
